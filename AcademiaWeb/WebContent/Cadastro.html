@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<title>Cadastro</title>
+<meta charset="utf-8">
+
+<link rel="stylesheet" href="css/estilo.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+</head>
+<body>
+
+	<div class="containerCadastro">
+	
+		<center>
+			<h2>
+				<b>Cadastro Do Aluno</b>
+			</h2>
+		</center>
+		
+		<form action="/SvCadastro" method="post">
+
+
+			<div class="form-group">
+				<label for="email">Matricula:</label> <input type="text"
+					class="form-control" id="Matricula" placeholder="Nª Matricula">
+			</div>
+
+
+			<div class="form-group">
+				<label for="email">Nome:</label> <input type="text"
+					class="form-control" id="Nome" placeholder="Nome completo">
+			</div>
+
+
+			<div class="form-group">
+				<label for="email">Data de Nacimento:</label> <input type="text"
+					class="form-control" id="Data" placeholder="Data de Nacimento">
+			</div>
+
+
+			<div class="form-group">
+				<label for="email">Endereço:</label> <input type="text"
+					class="form-control" id="Endereço" placeholder="Edereço">
+			</div>
+
+
+			<div class="form-group">
+				<label for="email">E-mail:</label> <input type="email"
+					class="form-control" id="Email" placeholder="E-mail">
+			</div>
+
+
+
+			<div class="form-group">
+				<label for="email">Telefone:</label> <input type="text"
+					class="form-control" id="Telefone" placeholder="Telefone">
+			</div>
+
+
+		</form>
+
+		<button type="submit" class="btn btn-default" value="enviar"
+			name="envia">Cadastrar</button>
+
+	</div>
+
+</body>
+</html>
